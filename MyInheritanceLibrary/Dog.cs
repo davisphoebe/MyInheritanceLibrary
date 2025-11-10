@@ -8,5 +8,9 @@ namespace MyInheritanceLibrary
 {
     internal class Dog : Animal
     {
+        public new void Speak()
+        {
+            Console.WriteLine("Woof");
+        }
     }
 }

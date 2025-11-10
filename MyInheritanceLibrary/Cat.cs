@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyInheritanceLibrary
 {
-    internal class CatDog : Animal
+    internal class Cat : Animal
     {
+        public new void Speak()
+        {
+            Console.WriteLine("Meow");
+        }
     }
 }

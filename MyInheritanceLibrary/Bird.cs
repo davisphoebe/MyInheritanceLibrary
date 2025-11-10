@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace MyInheritanceLibrary
 {
-    internal class BirdDog : Animal
+    internal class Bird : Animal
     {
+        private double wingspan;
+
+        public double Wingspan
+        {
+            get { return wingspan; }
+            set { wingspan = value; }
+        }
+
+
+        public new void Speak()
+        {
+            Console.WriteLine("Chirp");
+        }
     }
 }
