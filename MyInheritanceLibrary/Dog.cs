@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyInheritanceLibrary
 {
-    internal class Dog : Animal
+    public class Dog : Animal
     {
         public new void Speak()
         {
